@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'pages/metamask.dart';
+import 'pages/trust_wallet.dart';
 import 'utils/routes.dart';
 
 void main(List<String> args) {
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
       initialRoute: MyRoutes.metamaskUrl,
       routes: {
         MyRoutes.metamaskUrl: (context) => const MetaMask(),
+        MyRoutes.trustWalletUrl: (context) => const TrustWallet(),
       },
     );
   }
