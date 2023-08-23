@@ -152,8 +152,8 @@ class _MetaMaskState extends State<MetaMask> {
                         ),
                         const SizedBox(height: 20),
                         (_session.chainId != 56)
-                            ? const Row(
-                                children: [
+                            ? Row(
+                                children: const [
                                   Icon(Icons.warning,
                                       color: Colors.redAccent, size: 15),
                                   Text('Network not supported. Switch to '),
